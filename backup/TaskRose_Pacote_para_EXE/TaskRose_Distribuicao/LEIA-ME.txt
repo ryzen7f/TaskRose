@@ -1,0 +1,23 @@
+TASKROSE - PACOTE PARA GERAR O EXECUTAVEL
+
+1. Extraia todos os arquivos desta pasta para uma pasta no computador.
+2. Verifique se Python está instalado e se o comando `py` funciona no terminal.
+3. Dê dois cliques em Gerar_TaskRose_EXE.bat.
+4. Aguarde a instalação das dependências e a compilação.
+5. O executável será criado em dist\TaskRose\TaskRose.exe.
+
+IMPORTANTE SOBRE AS TAREFAS:
+O TaskRose salva as tarefas automaticamente em:
+%APPDATA%\TaskRose\tarefas.json
+
+Assim, as tarefas não ficam dentro da pasta temporária do PyInstaller nem são perdidas ao atualizar o executável.
+
+Para distribuir o aplicativo para outro computador, envie a pasta inteira:
+dist\TaskRose\
+Não envie apenas TaskRose.exe, pois a pasta _internal contém arquivos necessários.
+
+Arquivos incluídos neste pacote:
+- TaskRose.py: código-fonte atualizado.
+- Logo TasKRose.png: logo usada na interface.
+- TaskRose.ico: ícone do executável e da janela.
+- Gerar_TaskRose_EXE.bat: instalador de dependências e compilador.

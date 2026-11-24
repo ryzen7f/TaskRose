@@ -1,0 +1,36 @@
+TASKROSE - PACOTE PARA GERAR O EXECUTAVEL
+
+1. Extraia todos os arquivos do ZIP para uma pasta.
+2. De dois cliques em Gerar_TaskRose_EXE.bat.
+3. O gerador procura automaticamente por py, python ou python3.
+4. Aguarde a instalacao das dependencias e a compilacao.
+5. O executavel sera criado em dist\TaskRose\TaskRose.exe.
+
+SE O PYTHON NAO FOR ENCONTRADO:
+O BAT procura os comandos py, python e python3. Se nenhum funcionar,
+instale o Python pelo site python.org e marque Add python.exe to PATH.
+Se o Python ja funciona no VS Code, confira Ctrl+Shift+P >
+Python: Select Interpreter. Depois feche e abra novamente o BAT.
+
+AS TAREFAS:
+O programa salva automaticamente em %APPDATA%\TaskRose\tarefas.json.
+O arquivo fica fora da pasta temporaria do PyInstaller e permanece
+apos fechar o programa ou atualizar o executavel.
+
+PARA DISTRIBUIR:
+Envie a pasta inteira dist\TaskRose, nao apenas TaskRose.exe,
+pois _internal contem arquivos necessarios.
+
+ARQUIVOS:
+TaskRose.py - codigo-fonte.
+Logo TasKRose.png - logo da interface.
+TaskRose.ico - icone da janela e do executavel.
+Gerar_TaskRose_EXE.bat - instalador de dependencias e compilador.
+
+
+ATUALIZACAO DO ICONE
+Esta versao usa um icone simplificado de lista de tarefas em rosa e branco,
+para continuar legivel em tamanhos pequenos e nao parecer uma pena.
+Se ja compilou uma versao anterior, gere novamente o EXE com este pacote.
+O Windows pode manter o icone antigo em cache; feche o aplicativo e, se
+necessario, reinicie o Explorador de Arquivos ou o Windows.
