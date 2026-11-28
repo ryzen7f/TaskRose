@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f9dce7">
+  <meta name="description" content="TaskRose — sua rotina, mais leve. Organize suas tarefas no PC ou Android.">
+  <title>TaskRose — Sua rotina, mais leve</title>
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#inicio">
+      <!-- Coloque sua logo em assets/logo.png. Se não houver imagem, aparece o símbolo TR. -->
+      <img src="assets/logo.png" alt="Logo TaskRose" onerror="this.hidden=true">
+      <span class="brand-mark">TR</span>
+      <span>TaskRose</span>
+    </a>
+    <button class="menu-button" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#recursos">Recursos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#downloads" class="nav-cta">Baixar aplicativo <span>↓</span></a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-content">
+        <span class="eyebrow"><i></i> ORGANIZE SEU DIA COM LEVEZA</span>
+        <h1>Sua rotina,<br><em>mais leve.</em></h1>
+        <p>Organize suas tarefas com carinho. Planeje o que precisa fazer, acompanhe suas conquistas e deixe seu dia mais organizado com o TaskRose.</p>
+        <div class="hero-buttons">
+          <a class="button button-main" href="#downloads">Baixar TaskRose <span>↓</span></a>
+          <a class="button button-quiet" href="#recursos">Conhecer recursos</a>
+        </div>
+        <div class="availability"><span>✿</span> Disponível para Windows e Android</div>
+      </div>
+      <div class="hero-preview">
+        <div class="preview-glow"></div>
+        <div class="preview-frame">
+          <img src="assets/taskrose-android.jpeg" alt="Captura de tela do TaskRose no Android">
+        </div>
+        <div class="floating-note"><span>✓</span> Um passo de cada vez</div>
+        <span class="decor decor-one">✿</span><span class="decor decor-two">✧</span>
+      </div>
+      <div class="hero-bottom"><span>ORGANIZAÇÃO</span><b>✿</b><span>PRATICIDADE</span><b>✿</b><span>DO SEU JEITO</span></div>
+    </section>
+
+    <section class="section features" id="recursos">
+      <div class="section-title">
+        <span class="eyebrow">TUDO O QUE VOCÊ PRECISA</span>
+        <h2>Cuide das suas tarefas<br><em>do seu jeito.</em></h2>
+        <p>Uma experiência simples para ajudar você a visualizar sua rotina e acompanhar cada conquista.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature"><div class="feature-icon">＋</div><h3>Cadastre tarefas</h3><p>Adicione as atividades que você precisa realizar e mantenha tudo em um só lugar.</p></article>
+        <article class="feature"><div class="feature-icon">✓</div><h3>Acompanhe conquistas</h3><p>Marque tarefas como concluídas e veja seu progresso ao longo do tempo.</p></article>
+        <article class="feature"><div class="feature-icon">☷</div><h3>Filtros práticos</h3><p>Visualize todas as tarefas, somente as pendentes ou as que já foram concluídas.</p></article>
+        <article class="feature"><div class="feature-icon">◐</div><h3>Modo claro e escuro</h3><p>Alterne a aparência do aplicativo para escolher o tema que prefere usar.</p></article>
+        <article class="feature"><div class="feature-icon">▤</div><h3>Gerencie sua lista</h3><p>Selecione tarefas e remova as que não precisa mais manter na lista.</p></article>
+        <article class="feature"><div class="feature-icon">♡</div><h3>Visual acolhedor</h3><p>Uma interface em tons de rosa, feita para deixar a organização mais agradável.</p></article>
+      </div>
+    </section>
+
+    <section class="section showcase" id="sobre">
+      <div class="section-title">
+        <span class="eyebrow">CONHEÇA O APLICATIVO</span>
+        <h2>O TaskRose em<br><em>cada tela.</em></h2>
+        <p>Use no computador ou leve sua organização com você no celular.</p>
+      </div>
+      <div class="screens">
+        <article class="screen-card pc-screen">
+          <div class="screen-caption"><div><span class="device-tag">WINDOWS</span><h3>TaskRose para PC</h3><p>Sua lista de tarefas em uma tela ampla.</p></div><span class="screen-symbol">▣</span></div>
+          <img src="assets/taskrose-pc.png" alt="Captura de tela da versão TaskRose para PC">
+        </article>
+        <article class="screen-card mobile-screen">
+          <div class="screen-caption"><div><span class="device-tag">ANDROID</span><h3>TaskRose para celular</h3><p>Organização na palma da sua mão.</p></div><span class="screen-symbol">▯</span></div>
+          <img src="assets/taskrose-android.jpeg" alt="Captura de tela da versão TaskRose para Android">
+        </article>
+      </div>
+    </section>
+
+    <section class="download-section" id="downloads">
+      <div class="section-title">
+        <span class="eyebrow">ESCOLHA SUA VERSÃO</span>
+        <h2>Comece a organizar<br><em>seu dia hoje.</em></h2>
+        <p>Selecione seu dispositivo para acessar o download do TaskRose.</p>
+      </div>
+      <div class="download-grid">
+        <article class="download-card">
+          <div class="download-icon">▣</div><span class="device-tag">DESKTOP</span>
+          <h3>TaskRose para PC</h3>
+          <p>Para computadores com Windows. Baixe o pacote da versão desktop.</p>
+          <ul><li>Versão para Windows</li><li>Interface rosa do TaskRose</li><li>Gerenciamento de tarefas</li></ul>
+          <!-- SUBSTITUA COLOCAR_LINK_DO_WINDOWS pelo link real do ZIP/instalador no GitHub Releases -->
+          <a class="button button-main download-link" href="TaskRose.zip" data-file="windows">Baixar para PC <span>↓</span></a>
+          <small>Download para Windows</small>
+        </article>
+        <article class="download-card download-card-highlight">
+          <div class="download-icon android-icon">▯</div><span class="device-tag">MOBILE</span>
+          <h3>TaskRose para Android</h3>
+          <p>Instale o aplicativo no seu celular Android usando o arquivo APK.</p>
+          <ul><li>Arquivo APK</li><li>Interface adaptada para celular</li><li>Organização onde você estiver</li></ul>
+          <!-- SUBSTITUA COLOCAR_LINK_DO_ANDROID pelo link real do APK no GitHub Releases -->
+          <a class="button button-main download-link" href="TaskRoseMobile1.0.3.apk.apk" data-file="android">Baixar para Android <span>↓</span></a>
+          <small>Download para Android · APK</small>
+        </article>
+      </div>
+      <p class="download-notice">Os links de download ainda precisam ser adicionados. Veja o arquivo LEIA-ME.txt incluído nesta pasta para configurá-los.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark">TR</span><span>TaskRose</span></a>
+    <p>Sua rotina, mais leve. <b>✿</b></p>
+    <small>© 2026 TaskRose</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

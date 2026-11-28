@@ -1,0 +1,29 @@
+TASKROSE — SITE DE APRESENTAÇÃO E DOWNLOAD
+
+COMO ABRIR
+1. Extraia o arquivo ZIP.
+2. Abra a pasta TaskRose_Site.
+3. Clique duas vezes em index.html para abrir o site no navegador.
+
+LOGO
+Coloque a imagem da logo original do aplicativo dentro da pasta assets e nomeie-a:
+logo.png
+O caminho ficará: assets/logo.png
+As capturas de tela enviadas já estão em assets/taskrose-pc.png e assets/taskrose-android.jpeg.
+
+CONFIGURAR OS BOTÕES DE DOWNLOAD
+1. Publique os arquivos reais do aplicativo em uma página GitHub Releases (ou outro serviço de hospedagem).
+2. Abra index.html em um editor de código.
+3. Procure pelo botão com data-file="windows" e substitua href="#" pelo link real do ZIP/instalador Windows.
+4. Procure pelo botão com data-file="android" e substitua href="#" pelo link real do APK Android.
+5. Salve o arquivo e atualize o site.
+
+IMPORTANTE
+Os botões estão visualmente prontos, mas os links estão como # porque os endereços reais dos arquivos ainda não foram fornecidos.
+Não publique os botões sem configurar esses links.
+
+ARQUIVOS
+index.html — estrutura e conteúdo.
+style.css — aparência, cores e responsividade.
+script.js — menu mobile e aviso para downloads sem link.
+assets/ — capturas de tela e local para a logo.
